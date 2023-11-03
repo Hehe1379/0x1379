@@ -37,5 +37,5 @@ hex_output.pack()
 text_entry.bind("<KeyRelease>", lambda event: convert_to_hex())
 copy_button.config(command=copy_to_clipboard)
 
-# 运行窗口主循环
+# 运行窗口主循环()
 window.mainloop()
